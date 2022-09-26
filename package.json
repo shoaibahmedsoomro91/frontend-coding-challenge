@@ -1,0 +1,24 @@
+{
+  "name": "crewmeister-fronend-coding-challenge",
+  "version": "1.0.0",
+  "description": "This is crewmeister Frontend coding challenge Project using Reactjs nestjs",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "cd frontend && npm start",
+    "backend": "cd backend && npm start",
+    "start": "concurrently - kill-others \"npm run backend\" \"npm run frontend\""   
+  },
+  "keywords": [
+    "Frontend",
+    "Backend"
+  ],
+  "author": "Shoaib Ahmed",
+  "dependencies": {
+    "concurrently": "6.0.0"
+  },
+  "devDependencies": {
+    "copyfiles": "2.4.1",
+    "npm-build-zip": "1.0.3",
+    "rimraf": "3.0.2"
+  }
+}

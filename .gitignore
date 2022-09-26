@@ -1,0 +1,17 @@
+# dependencies
+/node_modules
+/frontend/node_modules
+/backend/node_modules
+
+# production
+/frontend/build
+/backend/dist
+/dist
+
+package-lock.json
+*.log
+.idea
+.vscode
+
+*.rar
+*.zip
