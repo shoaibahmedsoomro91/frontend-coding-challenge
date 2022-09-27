@@ -3,7 +3,11 @@ This frontend-coding-challenge from Crewmeister
 
 ## Installations 
 
-Before you clone the code, run `npm install' in root directory, './frontend', './backend'
+1. Before you clone the code, run `npm install' in root directory, './frontend', './backend'
+2. After npm install successfull, go to backend folder and run npm build
+   `cd backend`
+   `npm build`
+3. copy json_files folder into `dist/src`
 
 ## Available Scripts
 
