@@ -3,7 +3,7 @@ This frontend-coding-challenge from Crewmeister
 
 ## Installations 
 1. Clone the code into your local machine 
-   `git clone `
+   `git clone https://github.com/shoaibahmedsoomro91/frontend-coding-challenge.git`
 2. After you clone the code, run `npm install' in root directory, './frontend', './backend'
 3. After npm install successfully, go to backend folder and run npm build
    `cd backend`
